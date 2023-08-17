@@ -22,7 +22,7 @@ We propose the first multi-human body-part segmentation model, called Human3D ðŸ
 <a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
 <a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a>
 
-![teaser](assets/teaser.jpg)
+![teaser](https://github.com/human-3d/.github/blob/main/profile/assets/teaser.jpg)
 
 </div>
 <br><br>
