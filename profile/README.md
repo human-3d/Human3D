@@ -18,6 +18,10 @@
 
 We propose the first multi-human body-part segmentation model, called Human3D 🧑‍🤝‍🧑, that directly operates on 3D scenes. In an extensive analysis, we validate the benefits of training on synthetic data on multiple baselines and tasks. 
 
+[<a href="https://human-3d.github.io/">Project Webpage</a>]
+[<a href="https://arxiv.org/abs/2212.00786">Paper</a>]
+<br>
+
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 <a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
 <a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a>
@@ -25,9 +29,6 @@ We propose the first multi-human body-part segmentation model, called Human3D �
 ![teaser](https://github.com/human-3d/.github/blob/main/profile/assets/teaser.jpg)
 
 </div>
-<br><br>
-
-[[Project Webpage](https://human-3d.github.io/)]    [[Paper](https://arxiv.org/abs/2212.00786)]
 
 **Code and trained checkpoints are coming soon...**
 
