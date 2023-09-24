@@ -1,0 +1,14 @@
+# @package _group_
+_target_: models.criterion_hp.SetCriterionHumanParts
+num_classes: 2 # ${general.num_targets}
+eos_coef: 0.1
+losses:
+  - "labels"
+  - "masks"
+num_points: ${matcher.num_points}
+oversample_ratio: 3.0
+importance_sample_ratio: 0.75
+class_weights: -1
+num_human_queries: ${model.num_human_queries}
+num_parts_per_human_queries: ${model.num_parts_per_human_queries}
+num_parts: ${data.num_labels}
