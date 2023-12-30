@@ -70,7 +70,7 @@ You can set up a conda environment as follows
 
 export TORCH_CUDA_ARCH_LIST="6.0 6.1 6.2 7.0 7.2 7.5 8.0 8.6"
 
-conda env create -f environment.yml
+conda env create -f environment.yaml
 
 conda activate human3d_cuda113
 
