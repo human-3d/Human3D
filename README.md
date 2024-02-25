@@ -74,9 +74,9 @@ conda env create -f environment.yaml
 
 conda activate human3d_cuda113
 
-pip3 install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
-pip3 install torch-scatter -f https://data.pyg.org/whl/torch-1.12.1+cu113.html
-pip3 install 'git+https://github.com/facebookresearch/detectron2.git@710e7795d0eeadf9def0e7ef957eea13532e34cf' --no-deps
+python -m pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+python -m pip install torch-scatter -f https://data.pyg.org/whl/torch-1.12.1+cu113.html
+python -m pip install 'git+https://github.com/facebookresearch/detectron2.git@710e7795d0eeadf9def0e7ef957eea13532e34cf' --no-deps
 
 cd third_party
 
@@ -85,11 +85,11 @@ cd MinkowskiEngine
 git checkout 02fc608bea4c0549b0a7b00ca1bf15dee4a0b228
 python setup.py install --force_cuda --blas=openblas
 
-cd ../../pointnet2
+cd ../pointnet2
 python setup.py install
 
 cd ../../
-pip3 install pytorch-lightning==1.7.2
+python -m pip install pytorch-lightning==1.7.2
 ```
 
 
